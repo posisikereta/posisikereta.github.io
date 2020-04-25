@@ -640,21 +640,6 @@ $(function() {
 		name: 'Jumlah',
 		data: [21, 20, 24, 28, 24, 30, 49, 33, 29, 28, 50, 166]
 	  }],
-		annotations: {
-		points: [{
-		  x: 'Bananas',
-		  seriesIndex: 0,
-		  label: {
-			borderColor: '#775DD0',
-			offsetY: 0,
-			style: {
-			  color: '#fff',
-			  background: '#775DD0',
-			},
-			text: 'Bananas are good',
-		  }
-		}]
-	  },
 	  chart: {
 		height: 300,
 		type: 'bar',

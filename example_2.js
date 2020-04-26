@@ -305,7 +305,7 @@ $(function() {
 			
 			
 		var hg = L.control.heightgraph({
-             width: 500,
+             width: 600,
              height: 195,
              margins: {
                  top: 10,

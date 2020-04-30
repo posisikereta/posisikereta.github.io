@@ -355,8 +355,6 @@ $(function() {
 			marker.bindPopup(title);
 			markers.addLayer(marker);
 		}
-
-
 		
 		var zoomHome = L.Control.zoomHome({homeCoordinates: [-6.746844, 108.175107],
             homeZoom: 9});

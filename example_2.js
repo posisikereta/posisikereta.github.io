@@ -318,7 +318,7 @@ $(function() {
 				 elevation: "Elevasi",
 				 segment_length: "Panjang Segmen (Petak)",
 				 type: "Petak",
-				 legend: "Legenda"
+				 legend: "Perbandingan Elevasi (m) dengan Jarak (km) = 1 : 1.5"
              },
              expandCallback: function(expand){console.log("Expand: "+expand)},
              position: "topright",

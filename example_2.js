@@ -527,9 +527,9 @@ $(function() {
 			}
 		  ).addTo(map);
 
-		  var layerControlContainer2 = layerControl2.getContainer();
-		$("#layercontrol1").append(layerControlContainer2);
-
+		  var layerControlContainer222 = layerControl2.getContainer();
+		$("#layercontrol1").append(layerControlContainer222);
+		
 		var cb4 = {
 			
 			"Januari 2019" : markersjan,
@@ -555,8 +555,1017 @@ $(function() {
 			}
 		  ).addTo(map);
 
-		  var layerControlContainer1 = layerControl1.getContainer();
-		$("#layercontrol2").append(layerControlContainer1);
+		  var layerControlContainer333 = layerControl1.getContainer();
+		$("#layercontrol2").append(layerControlContainer333);
+
+		var zoomTo1 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 09.00 AM');
+			map.setView([-7.7892755,110.3638738], 18);
+		  }).addTo(map);
+		  var layerControlContainer1 = zoomTo1.getContainer();
+		$("#zoomke1").append(layerControlContainer1); 
+		
+		var zoomTo2 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 09.52 AM');
+			map.setView([-7.7258869,109.9071841], 18);
+		  	}).addTo(map);
+		var layerControlContainer2 = zoomTo2.getContainer();
+		$("#zoomke2").append(layerControlContainer2); 
+		
+		var zoomTo3 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 10.21 AM');
+			map.setView([-7.6817128,109.6621947], 18);
+		  	}).addTo(map);
+		var layerControlContainer3 = zoomTo3.getContainer();
+		$("#zoomke3").append(layerControlContainer3); 
+		
+		var zoomTo4 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 11.07 AM');
+			map.setView([-7.6302529,109.2535622], 18);
+		  	}).addTo(map);
+		var layerControlContainer4 = zoomTo4.getContainer();
+		$("#zoomke4").append(layerControlContainer4); 
+		
+		var zoomTo5 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 11.37 AM');
+			map.setView([-7.4192276,109.2219922], 18);
+		  	}).addTo(map);
+		var layerControlContainer5 = zoomTo5.getContainer();
+		$("#zoomke5").append(layerControlContainer5); 
+		
+		var zoomTo6 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 01.37 PM');
+			map.setView([-6.7052739,108.55555], 18);
+		  	}).addTo(map);
+		var layerControlContainer6 = zoomTo6.getContainer();
+		$("#zoomke6").append(layerControlContainer6); 
+		
+		var zoomTo7 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 04.24 PM');
+			map.setView([-6.2152273,106.8703446], 18);
+		  	}).addTo(map);
+		var layerControlContainer7 = zoomTo7.getContainer();
+		$("#zoomke7").append(layerControlContainer7); 
+		
+		var zoomTo8 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 04.42 PM');
+			map.setView([-6.1766309,106.8304899], 18);
+		  	}).addTo(map);
+		var layerControlContainer8 = zoomTo8.getContainer();
+		$("#zoomke8").append(layerControlContainer8); 
+		
+		var zoomTo9 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 09.00 PM');
+			map.setView([-7.7892755,110.3638738], 18);
+		  	}).addTo(map);
+		var layerControlContainer9 = zoomTo9.getContainer();
+		$("#zoomke9").append(layerControlContainer9); 
+		
+		var zoomTo10 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 09.52 PM');
+			map.setView([-7.7258869,109.9071841], 18);
+		  	}).addTo(map);
+		var layerControlContainer10 = zoomTo10.getContainer();
+		$("#zoomke10").append(layerControlContainer10); 
+		
+		var zoomTo11 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 10.20 PM');
+			map.setView([-7.6817128,109.6621947], 18);
+		  	}).addTo(map);
+		var layerControlContainer11 = zoomTo11.getContainer();
+		$("#zoomke11").append(layerControlContainer11); 
+		
+		var zoomTo12 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 11.07 PM');
+			map.setView([-7.6302529,109.2535622], 18);
+		  	}).addTo(map);
+		var layerControlContainer12 = zoomTo12.getContainer();
+		$("#zoomke12").append(layerControlContainer12); 
+		
+		var zoomTo13 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 11.36 PM');
+			map.setView([-7.4192276,109.2219922], 18);
+		  	}).addTo(map);
+		var layerControlContainer13 = zoomTo13.getContainer();
+		$("#zoomke13").append(layerControlContainer13); 
+		
+		var zoomTo14 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 01.37 AM');
+			map.setView([-6.7052739,108.55555], 18);
+		  	}).addTo(map);
+		var layerControlContainer14 = zoomTo14.getContainer();
+		$("#zoomke14").append(layerControlContainer14); 
+		
+		var zoomTo15 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 04.08 AM');
+			map.setView([-6.2361393,106.9994797], 18);
+		  	}).addTo(map);
+		var layerControlContainer15 = zoomTo15.getContainer();
+		$("#zoomke15").append(layerControlContainer15); 
+		
+		var zoomTo16 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 04.27 AM');
+			map.setView([-6.2152273,106.8703446], 18);
+		  	}).addTo(map);
+		var layerControlContainer16 = zoomTo16.getContainer();
+		$("#zoomke16").append(layerControlContainer16); 
+		
+		var zoomTo17 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 04.45 AM');
+			map.setView([-6.1766309,106.8304899], 18);
+		  	}).addTo(map);
+		var layerControlContainer17 = zoomTo17.getContainer();
+		$("#zoomke17").append(layerControlContainer17); 
+		
+		var zoomTo18 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 09.45 AM');
+			map.setView([-7.7902301,110.3754493], 18);
+		  	}).addTo(map);
+		var layerControlContainer18 = zoomTo18.getContainer();
+		$("#zoomke18").append(layerControlContainer18); 
+		
+		var zoomTo19 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 09.49 AM');
+			map.setView([-7.7892755,110.3638738], 18);
+		  	}).addTo(map);
+		var layerControlContainer19 = zoomTo19.getContainer();
+		$("#zoomke19").append(layerControlContainer19); 
+		
+		var zoomTo20 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 10.21 AM');
+			map.setView([-7.8595563,110.1579272], 18);
+		  	}).addTo(map);
+		var layerControlContainer20 = zoomTo20.getContainer();
+		$("#zoomke20").append(layerControlContainer20); 
+		
+		var zoomTo21 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 10.42 AM');
+			map.setView([-7.8027515,110.0012486], 18);
+		  	}).addTo(map);
+		var layerControlContainer21 = zoomTo21.getContainer();
+		$("#zoomke21").append(layerControlContainer21); 
+		
+		var zoomTo22 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 10.57 AM');
+			map.setView([-7.7258869,109.9071841], 18);
+		  	}).addTo(map);
+		var layerControlContainer22 = zoomTo22.getContainer();
+		$("#zoomke22").append(layerControlContainer22); 
+		
+		var zoomTo23 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 11.36 AM');
+			map.setView([-7.6331663,109.5734925], 18);
+		  	}).addTo(map);
+		var layerControlContainer23 = zoomTo23.getContainer();
+		$("#zoomke23").append(layerControlContainer23); 
+		
+		var zoomTo24 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 11.50 AM');
+			map.setView([-7.6105735,109.5078155], 18);
+		  	}).addTo(map);
+		var layerControlContainer24 = zoomTo24.getContainer();
+		$("#zoomke24").append(layerControlContainer24); 
+		
+		var zoomTo25 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 12.21 PM');
+			map.setView([-7.6302529,109.2535622], 18);
+		  	}).addTo(map);
+		var layerControlContainer25 = zoomTo25.getContainer();
+		$("#zoomke25").append(layerControlContainer25); 
+		
+		var zoomTo26 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 12.57 PM');
+			map.setView([-7.4192276,109.2219922], 18);
+		  	}).addTo(map);
+		var layerControlContainer26 = zoomTo26.getContainer();
+		$("#zoomke26").append(layerControlContainer26); 
+		
+		var zoomTo27 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 02.46 PM');
+			map.setView([-6.9029226,108.7439859], 18);
+		  	}).addTo(map);
+		var layerControlContainer27 = zoomTo27.getContainer();
+		$("#zoomke27").append(layerControlContainer27); 
+		
+		var zoomTo28 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 03.14 PM');
+			map.setView([-6.7193421,108.5588038], 18);
+		  	}).addTo(map);
+		var layerControlContainer28 = zoomTo28.getContainer();
+		$("#zoomke28").append(layerControlContainer28); 
+		
+		var zoomTo29 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 04.25 PM');
+			map.setView([-6.4586318,107.9409389], 18);
+		  	}).addTo(map);
+		var layerControlContainer29 = zoomTo29.getContainer();
+		$("#zoomke29").append(layerControlContainer29); 
+		
+		var zoomTo30 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 06.12 PM');
+			map.setView([-6.2152273,106.8703446], 18);
+		  	}).addTo(map);
+		var layerControlContainer30 = zoomTo30.getContainer();
+		$("#zoomke30").append(layerControlContainer30); 
+		
+		var zoomTo31 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 06.24 AM');
+			map.setView([-6.1747185,106.844333], 18);
+		  	}).addTo(map);
+		var layerControlContainer31 = zoomTo31.getContainer();
+		$("#zoomke31").append(layerControlContainer31); 
+		
+		var zoomTo32 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 06.10 PM');
+			map.setView([-7.7902301,110.3754493], 18);
+		  	}).addTo(map);
+		var layerControlContainer32 = zoomTo32.getContainer();
+		$("#zoomke32").append(layerControlContainer32); 
+		
+		var zoomTo33 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 06.14 PM');
+			map.setView([-7.7892755,110.3638738], 18);
+		  	}).addTo(map);
+		var layerControlContainer33 = zoomTo33.getContainer();
+		$("#zoomke33").append(layerControlContainer33); 
+		
+		var zoomTo34 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 06.43 PM');
+			map.setView([-7.8595563,110.1579272], 18);
+		  	}).addTo(map);
+		var layerControlContainer34 = zoomTo34.getContainer();
+		$("#zoomke34").append(layerControlContainer34); 
+		
+		var zoomTo35 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 07.13 PM');
+			map.setView([-7.7258869,109.9071841], 18);
+		  	}).addTo(map);
+		var layerControlContainer35 = zoomTo35.getContainer();
+		$("#zoomke35").append(layerControlContainer35); 
+		
+		var zoomTo36 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 07.28 PM');
+			map.setView([-7.7243091,109.7981071], 18);
+		  	}).addTo(map);
+		var layerControlContainer36 = zoomTo36.getContainer();
+		$("#zoomke36").append(layerControlContainer36); 
+		
+		var zoomTo37 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 07.48 PM');
+			map.setView([-7.6817128,109.6621947], 18);
+		  	}).addTo(map);
+		var layerControlContainer37 = zoomTo37.getContainer();
+		$("#zoomke37").append(layerControlContainer37); 
+		
+		var zoomTo38 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 08.10 PM');
+			map.setView([-7.6105735,109.5078155], 18);
+		  	}).addTo(map);
+		var layerControlContainer38 = zoomTo38.getContainer();
+		$("#zoomke38").append(layerControlContainer38); 
+		
+		var zoomTo39 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 09.03 PM');
+			map.setView([-7.4192276,109.2219922], 18);
+		  	}).addTo(map);
+		var layerControlContainer39 = zoomTo39.getContainer();
+		$("#zoomke39").append(layerControlContainer39); 
+		
+		var zoomTo40 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 09.54 PM');
+			map.setView([-7.2374021,109.0098136], 18);
+		  	}).addTo(map);
+		var layerControlContainer40 = zoomTo40.getContainer();
+		$("#zoomke40").append(layerControlContainer40); 
+		
+		var zoomTo41 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 10.46 PM');
+			map.setView([-6.9029226,108.7439859], 18);
+		  	}).addTo(map);
+		var layerControlContainer41 = zoomTo41.getContainer();
+		$("#zoomke41").append(layerControlContainer41); 
+		
+		var zoomTo42 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 11.16 PM');
+			map.setView([-6.7052739,108.55555], 18);
+		  	}).addTo(map);
+		var layerControlContainer42 = zoomTo42.getContainer();
+		$("#zoomke42").append(layerControlContainer42); 
+		
+		var zoomTo43 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 01.55 AM');
+			map.setView([-6.2361393,106.9994797], 18);
+		  	}).addTo(map);
+		var layerControlContainer43 = zoomTo43.getContainer();
+		$("#zoomke43").append(layerControlContainer43); 
+		
+		var zoomTo44 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 02.17 AM');
+			map.setView([-6.2152273,106.8703446], 18);
+		  	}).addTo(map);
+		var layerControlContainer44 = zoomTo44.getContainer();
+		$("#zoomke44").append(layerControlContainer44); 
+		
+		var zoomTo45 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 02.29 AM');
+			map.setView([-6.1747185,106.844333], 18);
+		  	}).addTo(map);
+		var layerControlContainer45 = zoomTo45.getContainer();
+		$("#zoomke45").append(layerControlContainer45); 
+		
+		var zoomTo46 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 07.00 AM');
+			map.setView([-7.7892755,110.3638738], 18);
+		  	}).addTo(map);
+		var layerControlContainer46 = zoomTo46.getContainer();
+		$("#zoomke46").append(layerControlContainer46); 
+		
+		var zoomTo47 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 07.26 AM');
+			map.setView([-7.8595563,110.1579272], 18);
+		  	}).addTo(map);
+		var layerControlContainer47 = zoomTo47.getContainer();
+		$("#zoomke47").append(layerControlContainer47); 
+		
+		var zoomTo48 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 07.57 AM');
+			map.setView([-7.7258869,109.9071841], 18);
+		  	}).addTo(map);
+		var layerControlContainer48 = zoomTo48.getContainer();
+		$("#zoomke48").append(layerControlContainer48); 
+		
+		var zoomTo49 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 09.44 AM');
+			map.setView([-7.4192276,109.2219922], 18);
+		  	}).addTo(map);
+		var layerControlContainer49 = zoomTo49.getContainer();
+		$("#zoomke49").append(layerControlContainer49); 
+		
+		var zoomTo50 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 10.33 AM');
+			map.setView([-7.2374021,109.0098136], 18);
+		  	}).addTo(map);
+		var layerControlContainer50 = zoomTo50.getContainer();
+		$("#zoomke50").append(layerControlContainer50); 
+		
+		var zoomTo51 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 11.16 AM');
+			map.setView([-6.9382946,108.8843762], 18);
+		  	}).addTo(map);
+		var layerControlContainer51 = zoomTo51.getContainer();
+		$("#zoomke51").append(layerControlContainer51); 
+		
+		var zoomTo52 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 11.57 AM');
+			map.setView([-6.7052739,108.55555], 18);
+		  	}).addTo(map);
+		var layerControlContainer52 = zoomTo52.getContainer();
+		$("#zoomke52").append(layerControlContainer52); 
+		
+		var zoomTo53 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 12.39 PM');
+			map.setView([-6.4728392,108.3063283], 18);
+		  	}).addTo(map);
+		var layerControlContainer53 = zoomTo53.getContainer();
+		$("#zoomke53").append(layerControlContainer53); 
+		
+		var zoomTo54 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 01.12 PM');
+			map.setView([-6.4586318,107.9409389], 18);
+		  	}).addTo(map);
+		var layerControlContainer54 = zoomTo54.getContainer();
+		$("#zoomke54").append(layerControlContainer54); 
+		
+		var zoomTo55 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 02.59 PM');
+			map.setView([-6.2152273,106.8703446], 18);
+		  	}).addTo(map);
+		var layerControlContainer55 = zoomTo55.getContainer();
+		$("#zoomke55").append(layerControlContainer55); 
+		
+		var zoomTo56 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 03.11 PM');
+			map.setView([-6.1747185,106.844333], 18);
+		  	}).addTo(map);
+		var layerControlContainer56 = zoomTo56.getContainer();
+		$("#zoomke56").append(layerControlContainer56); 
+		
+		var zoomTo57 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 07.05 PM');
+			map.setView([-7.7892755,110.3638738], 18);
+		  	}).addTo(map);
+		var layerControlContainer57 = zoomTo57.getContainer();
+		$("#zoomke57").append(layerControlContainer57); 
+		
+		var zoomTo58 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 07.30 PM');
+			map.setView([-7.8595563,110.1579272], 18);
+		  	}).addTo(map);
+		var layerControlContainer58 = zoomTo58.getContainer();
+		$("#zoomke58").append(layerControlContainer58); 
+		
+		var zoomTo59 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 08.02 PM');
+			map.setView([-7.7258869,109.9071841], 18);
+		  	}).addTo(map);
+		var layerControlContainer59 = zoomTo59.getContainer();
+		$("#zoomke59").append(layerControlContainer59); 
+		
+		var zoomTo60 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 08.35 AM');
+			map.setView([-7.6817128,109.6621947], 18);
+		  	}).addTo(map);
+		var layerControlContainer60 = zoomTo60.getContainer();
+		$("#zoomke60").append(layerControlContainer60); 
+		
+		var zoomTo61 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 08.56 PM');
+			map.setView([-7.6105735,109.5078155], 18);
+		  	}).addTo(map);
+		var layerControlContainer61 = zoomTo61.getContainer();
+		$("#zoomke61").append(layerControlContainer61); 
+		
+		var zoomTo62 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 09.49 PM');
+			map.setView([-7.4192276,109.2219922], 18);
+		  	}).addTo(map);
+		var layerControlContainer62 = zoomTo62.getContainer();
+		$("#zoomke62").append(layerControlContainer62); 
+		
+		var zoomTo63 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 22.50 PM');
+			map.setView([-6.7052739,108.55555], 18);
+		  	}).addTo(map);
+		var layerControlContainer63 = zoomTo63.getContainer();
+		$("#zoomke63").append(layerControlContainer63); 
+		
+		var zoomTo64 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 02.28 AM');
+			map.setView([-6.2361393,106.9994797], 18);
+		  	}).addTo(map);
+		var layerControlContainer64 = zoomTo64.getContainer();
+		$("#zoomke64").append(layerControlContainer64); 
+		
+		var zoomTo65 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 02.49 AM');
+			map.setView([-6.2152273,106.8703446], 18);
+		  	}).addTo(map);
+		var layerControlContainer65 = zoomTo65.getContainer();
+		$("#zoomke65").append(layerControlContainer65); 
+		
+		var zoomTo66 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 03.01 AM');
+			map.setView([-6.1747185,106.844333], 18);
+		  	}).addTo(map);
+		var layerControlContainer66 = zoomTo66.getContainer();
+		$("#zoomke66").append(layerControlContainer66); 
+		
+		var zoomTo67 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 03.20 PM');
+			map.setView([7.7902301,110.3754493], 18);
+		  	}).addTo(map);
+		var layerControlContainer67 = zoomTo67.getContainer();
+		$("#zoomke67").append(layerControlContainer67); 
+		
+		var zoomTo68 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 03.50 PM');
+			map.setView([-7.8595563,110.1579272], 18);
+		  	}).addTo(map);
+		var layerControlContainer68 = zoomTo68.getContainer();
+		$("#zoomke68").append(layerControlContainer68); 
+		
+		var zoomTo69 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 04.23 PM');
+			map.setView([-7.7258869,109.9071841], 18);
+		  	}).addTo(map);
+		var layerControlContainer69 = zoomTo69.getContainer();
+		$("#zoomke69").append(layerControlContainer69); 
+		
+		var zoomTo70 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 04.50 PM');
+			map.setView([-7.6817128,109.6621947], 18);
+		  	}).addTo(map);
+		var layerControlContainer70 = zoomTo70.getContainer();
+		$("#zoomke70").append(layerControlContainer70); 
+		
+		var zoomTo71 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 05.12 PM');
+			map.setView([-7.6331663,109.5734925], 18);
+		  	}).addTo(map);
+		var layerControlContainer71 = zoomTo71.getContainer();
+		$("#zoomke71").append(layerControlContainer71); 
+		
+		var zoomTo72 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 05.26 PM');
+			map.setView([-7.6105735,109.5078155], 18);
+		  	}).addTo(map);
+		var layerControlContainer72 = zoomTo72.getContainer();
+		$("#zoomke72").append(layerControlContainer72); 
+		
+		var zoomTo73 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 05.56 PM');
+			map.setView([-7.6302529,109.2535622], 18);
+		  	}).addTo(map);
+		var layerControlContainer73 = zoomTo73.getContainer();
+		$("#zoomke73").append(layerControlContainer73); 
+		
+		var zoomTo74 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 06.26 PM');
+			map.setView([-7.4192276,109.2219922], 18);
+		  	}).addTo(map);
+		var layerControlContainer74 = zoomTo74.getContainer();
+		$("#zoomke74").append(layerControlContainer74); 
+		
+		var zoomTo75 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 07.57 PM');
+			map.setView([-6.9382946,108.8843762], 18);
+		  	}).addTo(map);
+		var layerControlContainer75 = zoomTo75.getContainer();
+		$("#zoomke75").append(layerControlContainer75); 
+		
+		var zoomTo76 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 08.36 PM');
+			map.setView([-6.7193421,108.5588038], 18);
+		  	}).addTo(map);
+		var layerControlContainer76 = zoomTo76.getContainer();
+		$("#zoomke76").append(layerControlContainer76); 
+		
+		var zoomTo77 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 11.21 PM');
+			map.setView([-6.2361393,106.9994797], 18);
+		  	}).addTo(map);
+		var layerControlContainer77 = zoomTo77.getContainer();
+		$("#zoomke77").append(layerControlContainer77); 
+		
+		var zoomTo78 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 11.42 PM');
+			map.setView([-6.2152273,106.8703446], 18);
+		  	}).addTo(map);
+		var layerControlContainer78 = zoomTo78.getContainer();
+		$("#zoomke78").append(layerControlContainer78); 
+		
+		var zoomTo79 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 11.54 AM');
+			map.setView([-6.1747185,106.844333], 18);
+		  	}).addTo(map);
+		var layerControlContainer79 = zoomTo79.getContainer();
+		$("#zoomke79").append(layerControlContainer79); 
+		
+		var zoomTo80 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 09.30 AM');
+			map.setView([-6.1766309,106.8304899], 18);
+		  	}).addTo(map);
+		var layerControlContainer80 = zoomTo80.getContainer();
+		$("#zoomke80").append(layerControlContainer80); 
+		
+		var zoomTo81 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 12.24 PM');
+			map.setView([-6.7052739,108.55555], 18);
+		  	}).addTo(map);
+		var layerControlContainer81 = zoomTo81.getContainer();
+		$("#zoomke81").append(layerControlContainer81); 
+		
+		var zoomTo82 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 02.28 PM');
+			map.setView([-7.4192276,109.2219922], 18);
+		  	}).addTo(map);
+		var layerControlContainer82 = zoomTo82.getContainer();
+		$("#zoomke82").append(layerControlContainer82); 
+		
+		var zoomTo83 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 03.44 PM');
+			map.setView([-7.6817128,109.6621947], 18);
+		  	}).addTo(map);
+		var layerControlContainer83 = zoomTo83.getContainer();
+		$("#zoomke83").append(layerControlContainer83); 
+		
+		var zoomTo84 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 04.14 PM');
+			map.setView([-7.7258869,109.9071841], 18);
+		  	}).addTo(map);
+		var layerControlContainer84 = zoomTo84.getContainer();
+		$("#zoomke84").append(layerControlContainer84); 
+		
+		var zoomTo85 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 05.10 PM');
+			map.setView([-7.7892755,110.3638738], 18);
+		  	}).addTo(map);
+		var layerControlContainer85 = zoomTo85.getContainer();
+		$("#zoomke85").append(layerControlContainer85); 
+		
+		var zoomTo86 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 09.30 PM');
+			map.setView([-6.1766309,106.8304899], 18);
+		  	}).addTo(map);
+		var layerControlContainer86 = zoomTo86.getContainer();
+		$("#zoomke86").append(layerControlContainer86); 
+		
+		var zoomTo87 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 00.26 AM');
+			map.setView([-6.7052739,108.55555], 18);
+		  	}).addTo(map);
+		var layerControlContainer87 = zoomTo87.getContainer();
+		$("#zoomke87").append(layerControlContainer87); 
+		
+		var zoomTo88 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 02.28 AM');
+			map.setView([-7.4192276,109.2219922], 18);
+		  	}).addTo(map);
+		var layerControlContainer88 = zoomTo88.getContainer();
+		$("#zoomke88").append(layerControlContainer88); 
+		
+		var zoomTo89 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 04.08 AM');
+			map.setView([-7.7258869,109.9071841], 18);
+		  	}).addTo(map);
+		var layerControlContainer89 = zoomTo89.getContainer();
+		$("#zoomke89").append(layerControlContainer89); 
+		
+		var zoomTo90 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 05.02 AM');
+			map.setView([-7.7892755,110.3638738], 18);
+		  	}).addTo(map);
+		var layerControlContainer90 = zoomTo90.getContainer();
+		$("#zoomke90").append(layerControlContainer90); 
+		
+		var zoomTo91 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 09.45 PM');
+			map.setView([-6.1747185,106.844333], 18);
+		  	}).addTo(map);
+		var layerControlContainer91 = zoomTo91.getContainer();
+		$("#zoomke91").append(layerControlContainer91); 
+		
+		var zoomTo92 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 00.44 AM');
+			map.setView([-6.7193421,108.5588038], 18);
+		  	}).addTo(map);
+		var layerControlContainer92 = zoomTo92.getContainer();
+		$("#zoomke92").append(layerControlContainer92); 
+		
+		var zoomTo93 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 01.14 AM');
+			map.setView([-6.9029226,108.7439859], 18);
+		  	}).addTo(map);
+		var layerControlContainer93 = zoomTo93.getContainer();
+		$("#zoomke93").append(layerControlContainer93); 
+		
+		var zoomTo94 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 02.47 AM');
+			map.setView([-7.4192276,109.2219922], 18);
+		  	}).addTo(map);
+		var layerControlContainer94 = zoomTo94.getContainer();
+		$("#zoomke94").append(layerControlContainer94); 
+		
+		var zoomTo95 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 03.31 AM');
+			map.setView([-7.6302529,109.2535622], 18);
+		  	}).addTo(map);
+		var layerControlContainer95 = zoomTo95.getContainer();
+		$("#zoomke95").append(layerControlContainer95); 
+		
+		var zoomTo96 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 03.59 AM');
+			map.setView([-7.6105735,109.5078155], 18);
+		  	}).addTo(map);
+		var layerControlContainer96 = zoomTo96.getContainer();
+		$("#zoomke96").append(layerControlContainer96); 
+		
+		var zoomTo97 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 04.28 AM');
+			map.setView([-7.6817128,109.6621947], 18);
+		  	}).addTo(map);
+		var layerControlContainer97 = zoomTo97.getContainer();
+		$("#zoomke97").append(layerControlContainer97); 
+		
+		var zoomTo98 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 04.56 AM');
+			map.setView([-7.7258869,109.9071841], 18);
+		  	}).addTo(map);
+		var layerControlContainer98 = zoomTo98.getContainer();
+		$("#zoomke98").append(layerControlContainer98); 
+		
+		var zoomTo99 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 05.12 AM');
+			map.setView([-7.8027515,110.0012486], 18);
+		  	}).addTo(map);
+		var layerControlContainer99 = zoomTo99.getContainer();
+		$("#zoomke99").append(layerControlContainer99); 
+		
+		var zoomTo100 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 05.31 AM');
+			map.setView([-7.8595563,110.1579272], 18);
+		  	}).addTo(map);
+		var layerControlContainer100 = zoomTo100.getContainer();
+		$("#zoomke100").append(layerControlContainer100); 
+		
+		var zoomTo101 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 06.00 AM');
+			map.setView([-7.7892755,110.3638738], 18);
+		  	}).addTo(map);
+		var layerControlContainer101 = zoomTo101.getContainer();
+		$("#zoomke101").append(layerControlContainer101); 
+		
+		var zoomTo102 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 06.07 AM');
+			map.setView([-7.7902301,110.3754493], 18);
+		  	}).addTo(map);
+		var layerControlContainer102 = zoomTo102.getContainer();
+		$("#zoomke102").append(layerControlContainer102); 
+		
+		var zoomTo103 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 06.45 AM');
+			map.setView([-6.1747185,106.844333], 18);
+		  	}).addTo(map);
+		var layerControlContainer103 = zoomTo103.getContainer();
+		$("#zoomke103").append(layerControlContainer103); 
+		
+		var zoomTo104 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 08.34 AM');
+			map.setView([-6.4586318,107.9409389], 18);
+		  	}).addTo(map);
+		var layerControlContainer104 = zoomTo104.getContainer();
+		$("#zoomke104").append(layerControlContainer104); 
+		
+		var zoomTo105 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 09.38 AM');
+			map.setView([-6.7052739,108.55555], 18);
+		  	}).addTo(map);
+		var layerControlContainer105 = zoomTo105.getContainer();
+		$("#zoomke105").append(layerControlContainer105); 
+		
+		var zoomTo106 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 10.13 AM');
+			map.setView([-6.9029226,108.7439859], 18);
+		  	}).addTo(map);
+		var layerControlContainer106 = zoomTo106.getContainer();
+		$("#zoomke106").append(layerControlContainer106); 
+		
+		var zoomTo107 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 10.28 AM');
+			map.setView([-6.9382946,108.8843762], 18);
+		  	}).addTo(map);
+		var layerControlContainer107 = zoomTo107.getContainer();
+		$("#zoomke107").append(layerControlContainer107); 
+		
+		var zoomTo108 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 11.09 AM');
+			map.setView([-7.2374021,109.0098136], 18);
+		  	}).addTo(map);
+		var layerControlContainer108 = zoomTo108.getContainer();
+		$("#zoomke108").append(layerControlContainer108); 
+		
+		var zoomTo109 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 11.54 AM');
+			map.setView([-7.4192276,109.2219922], 18);
+		  	}).addTo(map);
+		var layerControlContainer109 = zoomTo109.getContainer();
+		$("#zoomke109").append(layerControlContainer109); 
+		
+		var zoomTo110 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 12.28 PM');
+			map.setView([-7.6302529,109.2535622], 18);
+		  	}).addTo(map);
+		var layerControlContainer110 = zoomTo110.getContainer();
+		$("#zoomke110").append(layerControlContainer110); 
+		
+		var zoomTo111 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 01.14 PM');
+			map.setView([-7.6331663,109.5734925], 18);
+		  	}).addTo(map);
+		var layerControlContainer111 = zoomTo111.getContainer();
+		$("#zoomke111").append(layerControlContainer111); 
+		
+		var zoomTo112 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 01.33 PM');
+			map.setView([-7.6817128,109.6621947], 18);
+		  	}).addTo(map);
+		var layerControlContainer112 = zoomTo112.getContainer();
+		$("#zoomke112").append(layerControlContainer112); 
+		
+		var zoomTo113 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 02.00 PM');
+			map.setView([-7.7258869,109.9071841], 18);
+		  	}).addTo(map);
+		var layerControlContainer113 = zoomTo113.getContainer();
+		$("#zoomke113").append(layerControlContainer113); 
+		
+		var zoomTo114 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 02.32 PM');
+			map.setView([-7.8595563,110.1579272], 18);
+		  	}).addTo(map);
+		var layerControlContainer114 = zoomTo114.getContainer();
+		$("#zoomke114").append(layerControlContainer114); 
+		
+		var zoomTo115 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 03.01 PM');
+			map.setView([-7.7892755,110.3638738], 18);
+		  	}).addTo(map);
+		var layerControlContainer115 = zoomTo115.getContainer();
+		$("#zoomke115").append(layerControlContainer115); 
+		
+		var zoomTo116 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 03.08 AM');
+			map.setView([-7.7902301,110.3754493], 18);
+		  	}).addTo(map);
+		var layerControlContainer116 = zoomTo116.getContainer();
+		$("#zoomke116").append(layerControlContainer116); 
+		
+		var zoomTo117 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 07.20 AM');
+			map.setView([-6.1747185,106.844333], 18);
+		  	}).addTo(map);
+		var layerControlContainer117 = zoomTo117.getContainer();
+		$("#zoomke117").append(layerControlContainer117); 
+		
+		var zoomTo118 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 09.42 AM');
+			map.setView([-6.4728392,108.3063283], 18);
+		  	}).addTo(map);
+		var layerControlContainer118 = zoomTo118.getContainer();
+		$("#zoomke118").append(layerControlContainer118); 
+		
+		var zoomTo119 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 10.17 AM');
+			map.setView([-6.7052739,108.55555], 18);
+		  	}).addTo(map);
+		var layerControlContainer119 = zoomTo119.getContainer();
+		$("#zoomke119").append(layerControlContainer119); 
+		
+		var zoomTo120 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 11.45 AM');
+			map.setView([-7.2374021,109.0098136], 18);
+		  	}).addTo(map);
+		var layerControlContainer120 = zoomTo120.getContainer();
+		$("#zoomke120").append(layerControlContainer120); 
+		
+		var zoomTo121 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 12.29 PM');
+			map.setView([-7.4192276,109.2219922], 18);
+		  	}).addTo(map);
+		var layerControlContainer121 = zoomTo121.getContainer();
+		$("#zoomke121").append(layerControlContainer121); 
+		
+		var zoomTo122 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 01.40 PM');
+			map.setView([-7.6105735,109.5078155], 18);
+		  	}).addTo(map);
+		var layerControlContainer122 = zoomTo122.getContainer();
+		$("#zoomke122").append(layerControlContainer122); 
+		
+		var zoomTo123 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 02.01 PM');
+			map.setView([-7.6817128,109.6621947], 18);
+		  	}).addTo(map);
+		var layerControlContainer123 = zoomTo123.getContainer();
+		$("#zoomke123").append(layerControlContainer123); 
+		
+		var zoomTo124 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 02.28 AM');
+			map.setView([-7.7258869,109.9071841], 18);
+		  	}).addTo(map);
+		var layerControlContainer124 = zoomTo124.getContainer();
+		$("#zoomke124").append(layerControlContainer124); 
+		
+		var zoomTo125 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 03.00 PM');
+			map.setView([-7.8595563,110.1579272], 18);
+		  	}).addTo(map);
+		var layerControlContainer125 = zoomTo125.getContainer();
+		$("#zoomke125").append(layerControlContainer125); 
+		
+		var zoomTo126 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 03.29 AM');
+			map.setView([-7.7892755,110.3638738], 18);
+		  	}).addTo(map);
+		var layerControlContainer126 = zoomTo126.getContainer();
+		$("#zoomke126").append(layerControlContainer126); 
+		
+		var zoomTo127 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 06.55 PM');
+			map.setView([-6.1747185,106.844333], 18);
+		  	}).addTo(map);
+		var layerControlContainer127 = zoomTo127.getContainer();
+		$("#zoomke127").append(layerControlContainer127); 
+		
+		var zoomTo128 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 09.47 PM');
+			map.setView([-6.7052739,108.55555], 18);
+		  	}).addTo(map);
+		var layerControlContainer128 = zoomTo128.getContainer();
+		$("#zoomke128").append(layerControlContainer128); 
+		
+		var zoomTo129 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 11.56 PM');
+			map.setView([-7.4192276,109.2219922], 18);
+		  	}).addTo(map);
+		var layerControlContainer129 = zoomTo129.getContainer();
+		$("#zoomke129").append(layerControlContainer129); 
+		
+		var zoomTo130 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 00.56 AM');
+			map.setView([-7.6105735,109.5078155], 18);
+		  	}).addTo(map);
+		var layerControlContainer130 = zoomTo130.getContainer();
+		$("#zoomke130").append(layerControlContainer130); 
+		
+		var zoomTo131 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 01.15 AM');
+			map.setView([-7.6552086,109.6030665], 18);
+		  	}).addTo(map);
+		var layerControlContainer131 = zoomTo131.getContainer();
+		$("#zoomke131").append(layerControlContainer131); 
+		
+		var zoomTo132 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 01.30 AM');
+			map.setView([-7.6817128,109.6621947], 18);
+		  	}).addTo(map);
+		var layerControlContainer132 = zoomTo132.getContainer();
+		$("#zoomke132").append(layerControlContainer132); 
+		
+		var zoomTo133 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 01.46 AM');
+			map.setView([-7.7243091,109.7981071], 18);
+		  	}).addTo(map);
+		var layerControlContainer133 = zoomTo133.getContainer();
+		$("#zoomke133").append(layerControlContainer133); 
+		
+		var zoomTo134 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 02.04 AM');
+			map.setView([-7.7258869,109.9071841], 18);
+		  	}).addTo(map);
+		var layerControlContainer134 = zoomTo134.getContainer();
+		$("#zoomke134").append(layerControlContainer134); 
+		
+		var zoomTo135 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 02.38 AM');
+			map.setView([-7.8595563,110.1579272], 18);
+		  	}).addTo(map);
+		var layerControlContainer135 = zoomTo135.getContainer();
+		$("#zoomke135").append(layerControlContainer135); 
+		
+		var zoomTo136 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 03.07 AM');
+			map.setView([-7.7892755,110.3638738], 18);
+		  	}).addTo(map);
+		var layerControlContainer136 = zoomTo136.getContainer();
+		$("#zoomke136").append(layerControlContainer136); 
+		
+		var zoomTo137 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 10.30 PM');
+			map.setView([-6.1766309,106.8304899], 18);
+		  	}).addTo(map);
+		var layerControlContainer137 = zoomTo137.getContainer();
+		$("#zoomke137").append(layerControlContainer137); 
+		
+		var zoomTo138 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 01.32 AM');
+			map.setView([-6.7193421,108.5588038], 18);
+		  	}).addTo(map);
+		var layerControlContainer138 = zoomTo138.getContainer();
+		$("#zoomke138").append(layerControlContainer138); 
+		
+		var zoomTo139 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 03.44 AM');
+			map.setView([-7.4192276,109.2219922], 18);
+		  	}).addTo(map);
+		var layerControlContainer139 = zoomTo139.getContainer();
+		$("#zoomke139").append(layerControlContainer139); 
+		
+		var zoomTo140 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 04.50 AM');
+			map.setView([-7.6105735,109.5078155], 18);
+		  	}).addTo(map);
+		var layerControlContainer140 = zoomTo140.getContainer();
+		$("#zoomke140").append(layerControlContainer140); 
+		
+		var zoomTo141 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 05.17 AM');
+			map.setView([-7.6817128,109.6621947], 18);
+		  	}).addTo(map);
+		var layerControlContainer141 = zoomTo141.getContainer();
+		$("#zoomke141").append(layerControlContainer141); 
+		
+		var zoomTo142 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 05.44 AM');
+			map.setView([-7.7258869,109.9071841], 18);
+		  	}).addTo(map);
+		var layerControlContainer142 = zoomTo142.getContainer();
+		$("#zoomke142").append(layerControlContainer142); 
+		
+		var zoomTo143 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 06.17 AM');
+			map.setView([-7.8595563,110.1579272], 18);
+		  	}).addTo(map);
+		var layerControlContainer143 = zoomTo143.getContainer();
+		$("#zoomke143").append(layerControlContainer143); 
+		
+		var zoomTo144 = L.easyButton( 'fa-search-plus', function(){
+			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 06.52 AM');
+			map.setView([-7.7902301,110.3754493], 18);
+		  	}).addTo(map);
+		var layerControlContainer144 = zoomTo144.getContainer();
+		$("#zoomke144").append(layerControlContainer144); 
+		  
 
     // Colors for AwesomeMarkers
    var lokoIcon = L.icon({

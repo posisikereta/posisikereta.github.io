@@ -54,20 +54,6 @@
     </style>
 </head>
 <script>
-function toggle100() {
-   if( document.getElementById("hidethis100").style.display=='none' ){
-     document.getElementById("hidethis100").style.display = 'table-row'; // set to table-row instead of an empty string
-   }else{
-     document.getElementById("hidethis100").style.display = 'none';
-   }
-  }
-  function toggle200() {
-   if( document.getElementById("hidethis200").style.display=='none' ){
-     document.getElementById("hidethis200").style.display = 'table-row'; // set to table-row instead of an empty string
-   }else{
-     document.getElementById("hidethis200").style.display = 'none';
-   }
-  }
   function toggle() {
    if( document.getElementById("hidethis").style.display=='none' ){
      document.getElementById("hidethis").style.display = 'table-row'; // set to table-row instead of an empty string
@@ -168,484 +154,7 @@ function toggle100() {
   }
 </script>
 <body>
-<div id="gambir" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content">
 
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Stasiun Tujuan</h4>
-        </div>
-        <div class="modal-body">
-          <h5>Arah Timur</h5>
-          <a href="#" role="button" class="btn btn-primary" tabindex="0" data-toggle="popover" title="Kereta Rute Gambir - Cirebon" data-content="No | Nama KA (No. KA) | Jadwal Berangkat | Jadwal Tiba <br> 1 | KA Taksaka (84) | Berangkat :09.00 WIB | Tiba :17.30 WIB" >Cirebon</a><br>
-          <a href="#" role="button" class="btn btn-primary" tabindex="0" data-toggle="popover" title="Kereta Rute Gambir - Purwokerto" data-content="No | Nama KA (No. KA) | Jadwal Berangkat | Jadwal Tiba <br> 1 | KA Taksaka (84) | Berangkat :09.00 WIB | Tiba :17.30 WIB" >Purwokerto</a><br>
-          <a href="#" role="button" class="btn btn-primary" tabindex="0" data-toggle="popover" title="Kereta Rute Gambir - Kebumen" data-content="No | Nama KA (No. KA) | Jadwal Berangkat | Jadwal Tiba <br> 1 | KA Taksaka (84) | Berangkat :09.00 WIB | Tiba :17.30 WIB" >Kebumen</a><br>
-          <a href="#" role="button" class="btn btn-primary" tabindex="0" data-toggle="popover" title="Kereta Rute Gambir - Kutoarjo" data-content="No | Nama KA (No. KA) | Jadwal Berangkat | Jadwal Tiba <br> 1 | KA Taksaka (84) | Berangkat :09.00 WIB | Tiba :17.30 WIB" >Kutoarjo</a><br>
-          <a href="#" role="button" class="btn btn-primary" tabindex="0" data-toggle="popover" title="Kereta Rute Gambir - Yogyakarta" data-content="No | Nama KA (No. KA) | Jadwal Berangkat | Jadwal Tiba <br> 1 | KA Taksaka (84) | Berangkat :09.00 WIB | Tiba :17.30 WIB" >Yogyakarta</a>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
-
-  <div id="pse" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Stasiun Tujuan</h4>
-        </div>
-        <div class="modal-body">
-          <h5>Arah Timur</h5>
-          <a href="#" role="button" class="btn btn-primary" tabindex="0" data-toggle="popover" title="Kereta Rute Pasar Senen - Haurgeulis " data-content="No | Nama KA (No. KA) | Jadwal Berangkat | Jadwal Tiba <br> 1 | KA Taksaka (84) | Berangkat :09.00 WIB | Tiba :17.30 WIB" >Haurgeulis</a><br>
-		      <a href="#" role="button" class="btn btn-primary" tabindex="0" data-toggle="popover" title="Kereta Rute Pasar Senen - Jatibarang " data-content="No | Nama KA (No. KA) | Jadwal Berangkat | Jadwal Tiba <br> 1 | KA Taksaka (84) | Berangkat :09.00 WIB | Tiba :17.30 WIB" >Jatibarang</a><br>
-          <a href="#" role="button" class="btn btn-primary" tabindex="0" data-toggle="popover" title="Kereta Rute Pasar Senen - Cirebon " data-content="No | Nama KA (No. KA) | Jadwal Berangkat | Jadwal Tiba <br> 1 | KA Taksaka (84) | Berangkat :09.00 WIB | Tiba :17.30 WIB" >Cirebon</a><br>
-          <a href="#" role="button" class="btn btn-primary" tabindex="0" data-toggle="popover" title="Kereta Rute Pasar Senen - Cirebon Prujakan " data-content="No | Nama KA (No. KA) | Jadwal Berangkat | Jadwal Tiba <br> 1 | KA Taksaka (84) | Berangkat :09.00 WIB | Tiba :17.30 WIB" >Cirebon Prujakan</a><br>
-          <a href="#" role="button" class="btn btn-primary" tabindex="0" data-toggle="popover" title="Kereta Rute Pasar Senen - Ciledug " data-content="No | Nama KA (No. KA) | Jadwal Berangkat | Jadwal Tiba <br> 1 | KA Taksaka (84) | Berangkat :09.00 WIB | Tiba :17.30 WIB" >Ciledug</a><br>
-          <a href="#" role="button" class="btn btn-primary" tabindex="0" data-toggle="popover" title="Kereta Rute Pasar Senen - Ketanggungan " data-content="No | Nama KA (No. KA) | Jadwal Berangkat | Jadwal Tiba <br> 1 | KA Taksaka (84) | Berangkat :09.00 WIB | Tiba :17.30 WIB" >Ketanggungan</a><br>
-          <a href="#" role="button" class="btn btn-primary" tabindex="0" data-toggle="popover" title="Kereta Rute Pasar Senen - Bumiayu " data-content="No | Nama KA (No. KA) | Jadwal Berangkat | Jadwal Tiba <br> 1 | KA Taksaka (84) | Berangkat :09.00 WIB | Tiba :17.30 WIB" >Bumiayu</a><br>
-          <a href="#" role="button" class="btn btn-primary" tabindex="0" data-toggle="popover" title="Kereta Rute Pasar Senen - Purwokerto " data-content="No | Nama KA (No. KA) | Jadwal Berangkat | Jadwal Tiba <br> 1 | KA Taksaka (84) | Berangkat :09.00 WIB | Tiba :17.30 WIB" >Purwokerto</a><br>
-          <a href="#" role="button" class="btn btn-primary" tabindex="0" data-toggle="popover" title="Kereta Rute Pasar Senen - Kroya " data-content="No | Nama KA (No. KA) | Jadwal Berangkat | Jadwal Tiba <br> 1 | KA Taksaka (84) | Berangkat :09.00 WIB | Tiba :17.30 WIB" >Kroya</a><br>
-          <a href="#" role="button" class="btn btn-primary" tabindex="0" data-toggle="popover" title="Kereta Rute Pasar Senen - Gombong " data-content="No | Nama KA (No. KA) | Jadwal Berangkat | Jadwal Tiba <br> 1 | KA Taksaka (84) | Berangkat :09.00 WIB | Tiba :17.30 WIB" >Gombong</a><br>
-          <a href="#" role="button" class="btn btn-primary" tabindex="0" data-toggle="popover" title="Kereta Rute Pasar Senen - Karanganyar " data-content="No | Nama KA (No. KA) | Jadwal Berangkat | Jadwal Tiba <br> 1 | KA Taksaka (84) | Berangkat :09.00 WIB | Tiba :17.30 WIB" >Karanganyar</a><br>
-          <a href="#" role="button" class="btn btn-primary" tabindex="0" data-toggle="popover" title="Kereta Rute Pasar Senen - Kebumen " data-content="No | Nama KA (No. KA) | Jadwal Berangkat | Jadwal Tiba <br> 1 | KA Taksaka (84) | Berangkat :09.00 WIB | Tiba :17.30 WIB" >Kebumen</a><br>
-          <a href="#" role="button" class="btn btn-primary" tabindex="0" data-toggle="popover" title="Kereta Rute Pasar Senen - Prembun" data-content="No | Nama KA (No. KA) | Jadwal Berangkat | Jadwal Tiba <br> 1 | KA Taksaka (84) | Berangkat :09.00 WIB | Tiba :17.30 WIB" >Prembun</a><br>
-          <a href="#" role="button" class="btn btn-primary" tabindex="0" data-toggle="popover" title="Kereta Rute Pasar Senen - Kutoarjo " data-content="No | Nama KA (No. KA) | Jadwal Berangkat | Jadwal Tiba <br> 1 | KA Taksaka (84) | Berangkat :09.00 WIB | Tiba :17.30 WIB" >Kutoarjo</a><br>
-          <a href="#" role="button" class="btn btn-primary" tabindex="0" data-toggle="popover" title="Kereta Rute Pasar Senen - Jenar" data-content="No | Nama KA (No. KA) | Jadwal Berangkat | Jadwal Tiba <br> 1 | KA Taksaka (84) | Berangkat :09.00 WIB | Tiba :17.30 WIB" >Jenar</a><br>
-          <a href="#" role="button" class="btn btn-primary" tabindex="0" data-toggle="popover" title="Kereta Rute Pasar Senen - Wates" data-content="No | Nama KA (No. KA) | Jadwal Berangkat | Jadwal Tiba <br> 1 | KA Taksaka (84) | Berangkat :09.00 WIB | Tiba :17.30 WIB" >Wates</a><br>
-          <a href="#" role="button" class="btn btn-primary" tabindex="0" data-toggle="popover" title="Kereta Rute Pasar Senen - Yogyakarta " data-content="No | Nama KA (No. KA) | Jadwal Berangkat | Jadwal Tiba <br> 1 | KA Taksaka (84) | Berangkat :09.00 WIB | Tiba :17.30 WIB" >Yogyakarta</a><br>
-          <a href="#" role="button" class="btn btn-primary" tabindex="0" data-toggle="popover" title="Kereta Rute Pasar Senen - Lempuyangan " data-content="No | Nama KA (No. KA) | Jadwal Berangkat | Jadwal Tiba <br> 1 | KA Taksaka (84) | Berangkat :09.00 WIB | Tiba :17.30 WIB" >Lempuyangan</a>
-          </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
-
-  <div id="jng" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Stasiun Tujuan</h4>
-        </div>
-        <div class="modal-body">
-          <h4>Jakarta</h4>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#gambir">Gambir</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#pse">Pasar Senen</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#jng">Jatinegara</a>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
-
-  <div id="bekasi" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Stasiun Tujuan</h4>
-        </div>
-        <div class="modal-body">
-          <h4>Jakarta</h4>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#gambir">Gambir</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#pse">Pasar Senen</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#jng">Jatinegara</a>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
-
-  <div id="haur" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Stasiun Tujuan</h4>
-        </div>
-        <div class="modal-body">
-          <h4>Jakarta</h4>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#gambir">Gambir</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#pse">Pasar Senen</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#jng">Jatinegara</a>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
-
-  <div id="jati" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Stasiun Tujuan</h4>
-        </div>
-        <div class="modal-body">
-          <h4>Jakarta</h4>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#gambir">Gambir</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#pse">Pasar Senen</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#jng">Jatinegara</a>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
-
-  <div id="cirebon" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Stasiun Tujuan</h4>
-        </div>
-        <div class="modal-body">
-          <h4>Jakarta</h4>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#gambir">Gambir</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#pse">Pasar Senen</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#jng">Jatinegara</a>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
-
-  <div id="cnp" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Stasiun Tujuan</h4>
-        </div>
-        <div class="modal-body">
-          <h4>Jakarta</h4>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#gambir">Gambir</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#pse">Pasar Senen</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#jng">Jatinegara</a>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
-
-  <div id="ciledug" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Stasiun Tujuan</h4>
-        </div>
-        <div class="modal-body">
-          <h4>Jakarta</h4>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#gambir">Gambir</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#pse">Pasar Senen</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#jng">Jatinegara</a>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
-
-  <div id="ktgg" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Stasiun Tujuan</h4>
-        </div>
-        <div class="modal-body">
-          <h4>Jakarta</h4>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#gambir">Gambir</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#pse">Pasar Senen</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#jng">Jatinegara</a>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
-
-  <div id="bumi" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Stasiun Tujuan</h4>
-        </div>
-        <div class="modal-body">
-          <h4>Jakarta</h4>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#gambir">Gambir</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#pse">Pasar Senen</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#jng">Jatinegara</a>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
-
-  <div id="pwt" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Stasiun Tujuan</h4>
-        </div>
-        <div class="modal-body">
-          <h4>Jakarta</h4>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#gambir">Gambir</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#pse">Pasar Senen</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#jng">Jatinegara</a>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
-
-  <div id="kroya" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Stasiun Tujuan</h4>
-        </div>
-        <div class="modal-body">
-          <h4>Jakarta</h4>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#gambir">Gambir</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#pse">Pasar Senen</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#jng">Jatinegara</a>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
-
-  <div id="gombong" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Stasiun Tujuan</h4>
-        </div>
-        <div class="modal-body">
-          <h4>Jakarta</h4>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#gambir">Gambir</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#pse">Pasar Senen</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#jng">Jatinegara</a>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
-
-  <div id="kra" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Stasiun Tujuan</h4>
-        </div>
-        <div class="modal-body">
-          <h4>Jakarta</h4>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#gambir">Gambir</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#pse">Pasar Senen</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#jng">Jatinegara</a>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
-
-  <div id="kebumen" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Stasiun Tujuan</h4>
-        </div>
-        <div class="modal-body">
-          <h4>Jakarta</h4>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#gambir">Gambir</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#pse">Pasar Senen</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#jng">Jatinegara</a>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
-
-  <div id="prembun" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Stasiun Tujuan</h4>
-        </div>
-        <div class="modal-body">
-          <h4>Jakarta</h4>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#gambir">Gambir</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#pse">Pasar Senen</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#jng">Jatinegara</a>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
-
-  <div id="kta" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Stasiun Tujuan</h4>
-        </div>
-        <div class="modal-body">
-          <h4>Jakarta</h4>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#gambir">Gambir</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#pse">Pasar Senen</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#jng">Jatinegara</a>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
-
-  <div id="jenar" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Stasiun Tujuan</h4>
-        </div>
-        <div class="modal-body">
-          <h4>Jakarta</h4>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#gambir">Gambir</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#pse">Pasar Senen</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#jng">Jatinegara</a>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
-
-  <div id="wates" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Stasiun Tujuan</h4>
-        </div>
-        <div class="modal-body">
-          <h4>Jakarta</h4>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#gambir">Gambir</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#pse">Pasar Senen</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#jng">Jatinegara</a>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
-
-  <div id="yka" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Stasiun Tujuan</h4>
-        </div>
-        <div class="modal-body">
-          <h4>Jakarta</h4>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#gambir">Gambir</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#pse">Pasar Senen</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#jng">Jatinegara</a>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
-
-  <div id="lpn" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Stasiun Tujuan</h4>
-        </div>
-        <div class="modal-body">
-          <h4>Jakarta</h4>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#gambir">Gambir</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#pse">Pasar Senen</a>
-          <a href="#" role="button" class="btn btn-primary" data-toggle="modal" data-target="#jng">Jatinegara</a>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
     <div id="sidebar" class="leaflet-sidebar collapsed">
         <!-- Nav tabs -->
 	<nav>
@@ -677,54 +186,10 @@ function toggle100() {
             <h1 class="leaflet-sidebar-header">
               Jadwal Kereta (GAPEKA 2019)
               <span class="leaflet-sidebar-close"><i class="fa fa-caret-left"></i></span>
-            </h1>
-			<h6>Pencarian jadwal berdasarkan stasiun</h6>
-			<span class="btn btn-primary btn-sm" onClick="toggle100();">Stasiun <i class="fa fa-caret-down"></i></span>
-            <br>
-		  <div id="hidethis100" style="display:none;">
-		  <h4 style="text-align:center">Stasiun Keberangkatan</h4>
-		  <h5>Jakarta</h5>
-          <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#gambir">Gambir</button>
-          <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#pse">Pasar Senen</button>
-          <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#jng">Jatinegara</button>
-          <h5>Bekasi</h5>
-          <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#bekasi">Bekasi</button>
-          <h5>Indramayu</h5>
-          <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#haur">Haurgeulis</button>
-          <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#jati">Jatibarang</button>
-          <h5>Cirebon</h5>
-          <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#cirebon">Cirebon</button>
-          <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#cnp">Cirebon Prujakan</button>
-          <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#ciledug">Ciledug</button>
-          <h5>Brebes</h5>
-          <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#ktgg">Ketanggungan</button>
-          <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#bumi">Bumiayu</button>
-          <h5>Purwokerto</h5>
-          <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#pwt">Purwokerto</button>
-          <h5>Cilacap</h5>
-          <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#kroya">Kroya</button>
-          <h5>Gombong</h5>
-          <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#gombong">Gombong</button>
-          <h5>Kebumen</h5>
-          <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#kra">Karanganyar</button>
-          <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#kebumen">Kebumen</button>
-          <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#prembun">Prembun</button>
-          <h5>Kutoarjo</h5>
-          <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#kta">Kutoarjo</button>
-          <h5>Purworejo</h5>
-          <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#jenar">Jenar</button>
-          <h5>Yogyakarta</h5>
-          <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#wates">Wates</button>
-          <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#yka">Yogyakarta</button>
-          <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#lpn">Lempuyangan</button>
-			</div>
-			<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+            </h1>						
             <h6>Pencarian jadwal berdasarkan kereta</h6> 
-			<span class="btn btn-primary btn-sm" onClick="toggle200();">Kereta <i class="fa fa-caret-down"></i></span>
-            <br>
-			<div id="hidethis200" style="display:none;">
-			<h4 style="text-align:center">Yogyakarta - Jakarta</h4>
-          <span class="btn btn-secondary btn-sm" onClick="toggle2();">KA Taksaka Pagi (83)</span>
+					<h4 style="text-align:center">Yogyakarta - Jakarta</h4>
+          <span class="btn btn-primary btn-sm" onClick="toggle2();">KA Taksaka Pagi (83) <i class="fa fa-caret-down"></i></span>
             <br>
             <table border="2" id="hidethis2" style="display:none;">
             <tr>
@@ -768,7 +233,7 @@ function toggle100() {
             </tr>
             </table>
 
-            <span class="btn btn-secondary btn-sm" onClick="toggle3();">KA Taksaka Malam (85)</span>
+            <span class="btn btn-primary btn-sm" onClick="toggle3();">KA Taksaka Malam (85) <i class="fa fa-caret-down"></i></span>
             <br>
             <table border="2" id="hidethis3" style="display:none;">
               <tr>
@@ -815,7 +280,7 @@ function toggle100() {
               <td id= "zoomke17"></td>
             </tr>
             </table>
-          <span class="btn btn-secondary btn-sm" onClick="toggle4();">KA Bogowonto (141)</span>
+          <span class="btn btn-primary btn-sm" onClick="toggle4();">KA Bogowonto (141) <i class="fa fa-caret-down"></i></span>
             <br>
             <table border="2" id="hidethis4" style="display:none;">
               <tr>
@@ -884,7 +349,7 @@ function toggle100() {
             
             </table>
 
-            <span class="btn btn-secondary btn-sm" onClick="toggle5();">KA Gajahwong (143)</span>
+            <span class="btn btn-primary btn-sm" onClick="toggle5();">KA Gajahwong (143) <i class="fa fa-caret-down"></i></span>
             <br>
             <table border="2" id="hidethis5" style="display:none;">
               <tr>
@@ -951,7 +416,7 @@ function toggle100() {
               <td id= "zoomke45"></td>
             </tr>
             </table>
-          <span class="btn btn-secondary btn-sm" onClick="toggle6();">KA Fajar Utama YK (145)</span>
+          <span class="btn btn-primary btn-sm" onClick="toggle6();">KA Fajar Utama YK (145) <i class="fa fa-caret-down"></i></span>
             <br>
             <table border="2" id="hidethis6" style="display:none;">
               <tr>
@@ -1007,7 +472,7 @@ function toggle100() {
             </tr>
             </table>
 
-            <span class="btn btn-secondary btn-sm" onClick="toggle7();">KA Senja Utama YK (147)</span>
+            <span class="btn btn-primary btn-sm" onClick="toggle7();">KA Senja Utama YK (147) <i class="fa fa-caret-down"></i></span>
             <br>
             <table border="2" id="hidethis7" style="display:none;">
               <tr>
@@ -1058,7 +523,7 @@ function toggle100() {
             <td id= "zoomke66"></td>
            </tr>
             </table>
-          <span class="btn btn-secondary btn-sm" onClick="toggle8();">KA Progo (307)</span>
+          <span class="btn btn-primary btn-sm" onClick="toggle8();">KA Progo (307) <i class="fa fa-caret-down"></i></span>
             <br>
             <table border="2" id="hidethis8" style="display:none;">
               <tr>
@@ -1121,10 +586,10 @@ function toggle100() {
               <td id= "zoomke79"></td>
             </tr>
             </table>
-
+            <hr style="height:2px;border-width:0;color:gray;background-color:gray">
             <h4 style="text-align:center">Jakarta - Yogyakarta</h4>
 
-            <span class="btn btn-secondary btn-sm" onClick="toggle9();">KA Taksaka Pagi (84)</span>
+            <span class="btn btn-primary btn-sm" onClick="toggle9();">KA Taksaka Pagi (84) <i class="fa fa-caret-down"></i></span>
             <br>
             <table border="2" id="hidethis9" style="display:none;">
             <tr>
@@ -1159,7 +624,7 @@ function toggle100() {
               <td id= "zoomke85"></td>
             </tr>
             </table>
-          <span class="btn btn-secondary btn-sm" onClick="toggle10();">KA Taksaka Malam (86)</span>
+          <span class="btn btn-primary btn-sm" onClick="toggle10();">KA Taksaka Malam (86) <i class="fa fa-caret-down"></i></span>
             <br>
             <table border="2" id="hidethis10" style="display:none;">
             <tr>
@@ -1191,7 +656,7 @@ function toggle100() {
             </tr>
             </table>
 
-            <span class="btn btn-secondary btn-sm" onClick="toggle11();">Ka Bogowonto (142)</span>
+            <span class="btn btn-primary btn-sm" onClick="toggle11();">Ka Bogowonto (142) <i class="fa fa-caret-down"></i></span>
             <br>
             <table border="2" id="hidethis11" style="display:none;">
             <tr>
@@ -1251,7 +716,7 @@ function toggle100() {
             </tr>
             </table>
 
-           <span class="btn btn-secondary btn-sm" onClick="toggle12();">KA Gajahwong (144)</span>
+           <span class="btn btn-primary btn-sm" onClick="toggle12();">KA Gajahwong (144) <i class="fa fa-caret-down"></i></span>
             <br>
             <table border="2" id="hidethis12" style="display:none;">
             <tr>
@@ -1319,7 +784,7 @@ function toggle100() {
             </tr>
             </table>
 
-            <span class="btn btn-secondary btn-sm" onClick="toggle13();">Ka Fajar Utama YK (146)</span>
+            <span class="btn btn-primary btn-sm" onClick="toggle13();">Ka Fajar Utama YK (146) <i class="fa fa-caret-down"></i></span>
             <br>
             <table border="2" id="hidethis13" style="display:none;">
             <tr>
@@ -1371,7 +836,7 @@ function toggle100() {
             </tr>
             </table>
 
-            <span class="btn btn-secondary btn-sm" onClick="toggle();">KA Senja Utama YK (148)</span>
+            <span class="btn btn-primary btn-sm" onClick="toggle();">KA Senja Utama YK (148) <i class="fa fa-caret-down"></i></span>
             <br>
             <table border="2" id="hidethis" style="display:none;">
             <tr>
@@ -1423,7 +888,7 @@ function toggle100() {
             </tr>
             </table>
             
-            <span class="btn btn-secondary btn-sm" onClick="toggle1();">KA Progo (308)</span>
+            <span class="btn btn-primary btn-sm" onClick="toggle1();">KA Progo (308) <i class="fa fa-caret-down"></i></span>
             <br>
             <table border="2" id="hidethis1" style="display:none;">
             <tr>
@@ -1466,7 +931,7 @@ function toggle100() {
               <td id= "zoomke144"></td>
             </tr>
             </table>
-			</div>
+			<br>
 			<ul<li>Sumber : GAPEKA 2019</li></ul> <br>
             <ul<li>Berlaku sejak 1 Desember 2019</li></ul>
 			</div>

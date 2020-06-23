@@ -1467,14 +1467,7 @@ $(function() {
 		  	}).addTo(map);
 		var layerControlContainer130 = zoomTo130.getContainer();
 		$("#zoomke130").append(layerControlContainer130); 
-		
-		var zoomTo131 = L.easyButton( 'fa-search-plus', function(){
-			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 01.15 AM');
-			map.setView([-7.6552086,109.6030665], 18);
-		  	}).addTo(map);
-		var layerControlContainer131 = zoomTo131.getContainer();
-		$("#zoomke131").append(layerControlContainer131); 
-		
+				
 		var zoomTo132 = L.easyButton( 'fa-search-plus', function(){
 			alert('Ubah waktu secara manual menggunakan time slider menjadi pukul 01.30 AM');
 			map.setView([-7.6817128,109.6621947], 18);
